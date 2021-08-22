@@ -24,6 +24,10 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
@@ -42,8 +46,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300"
-	onload="window.location.href = 'https://bit.ly/Batch23Official'; 
-	swal('Disclaimer', 'It is advised that this site should be seen in high-tier mobile phones or pc! and if you wanna post your thoughts here then contact batch23.official', 'info');">
+	onload="swal('Disclaimer', 'It is advised that this site should be seen in high-tier mobile phones or pc! and if you wanna post your thoughts here then contact batch23.official', 'info');">
 
 
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
@@ -62,9 +65,11 @@
 					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Who Are We?</span></a></li>
 					<li class="nav-item"><a href="#schedule-section" class="nav-link"><span>Achievements</span></a></li>
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About Us</span></a></li>
-					<li class="nav-item"><a href="#coaches-section" class="nav-link"><span>Our Team</span></a></li>
+					<!-- <li class="nav-item"><a href="#coaches-section" class="nav-link"><span>Our Team</span></a></li> -->
 					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>Posts</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+					<li class="nav-item"><a href="#ftco-section" class="nav-link"><span>Gallery</span><sup><span class="badge badge-danger">New</span></sup></a></li>
+
 				</ul>
 			</div>
 		</div>
@@ -126,10 +131,11 @@
 			<div class="row no-gutters services-section">
 				<div class="col-md-4 d-flex align-self-stretch ftco-animate">
 					<div class="media block-6 services text-center d-block">
-						<div class="icon"> <span class=" icon-heart color-danger"></span></div>
+						<div class="icon"> <span class="icon-heart"></span></div>
 						<div class="media-body">
 							<h3 class="heading mb-3">Shiwalika ❤️</h3>
-							<p>This is the house of real legends. Also known as Shivalika Spartans.</p>
+							<p>This is the house of real legends. Also known as Shivalika Spartans.<i
+									class="fal fa-helmet-battle"></i></p>
 							<!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
 						</div>
 					</div>
@@ -725,7 +731,27 @@
 									<div class="text pl-md-5">
 										<!-- <span class="time">08:00AM - 10:00AM</span> -->
 										<h2><a href="#">Diya Sayyad</a></h2>
-										<p>She did too much hardwork and secured 1<sup>st</sup> position with 97.60%.
+										<p>She did too much hardwork and secured 1<sup>st</sup> position with 97.60%
+										</p>
+									</div>
+								</div>
+								<div class="coach-wrap ftco-animate d-sm-flex">
+									<div class="img coach-img" style="background-image: url(images/unknown.jpg);">
+									</div>
+									<div class="text pl-md-5">
+										<!-- <span class="time">08:00AM - 10:00AM</span> -->
+										<h2><a href="#">Shreyas Kumbhar</a></h2>
+										<p>He has secured 2<sup>nd</sup> position with 97.40%
+										</p>
+									</div>
+								</div>
+								<div class="coach-wrap ftco-animate d-sm-flex">
+									<div class="img coach-img" style="background-image: url(images/unknown.jpg);">
+									</div>
+									<div class="text pl-md-5">
+										<!-- <span class="time">08:00AM - 10:00AM</span> -->
+										<h2><a href="#">Shraddha Shinde</a></h2>
+										<p>She has secured 3<sup>rd</sup> position with 96.80%
 										</p>
 									</div>
 								</div>
@@ -735,7 +761,7 @@
 									<div class="text pl-md-5">
 										<!-- <span class="time">08:00AM - 10:00AM</span> -->
 										<h2><a href="#">Rohit Kondhare</a></h2>
-										<p> He got 96.6% in class X.</p>
+										<p>He has secured 4<sup>th</sup> position with 96.6%.</p>
 
 									</div>
 								</div>
@@ -745,17 +771,17 @@
 									<div class="text pl-md-5">
 										<!-- <span class="time">08:00AM - 10:00AM</span> -->
 										<h2><a href="#">Sujeet Gund</a></h2>
-										<p> He got 95.8% in class X.</p>
+										<p>He has secured 5<sup>th</sup> position with 95.8%</p>
 
 									</div>
 								</div>
 								<div class="coach-wrap ftco-animate d-sm-flex">
-									<div class="img coach-img" style="background-image: url(images/akash.png);">
+									<div class="img coach-img" style="background-image: url(images/srushti.jpg);">
 									</div>
 									<div class="text pl-md-5">
 										<!-- <span class="time">08:00AM - 10:00AM</span> -->
-										<h2><a href="#">Akash Kharat</a></h2>
-										<p> He got 94.4% in class X.</p>
+										<h2><a href="#">Srushti Dhavale</a></h2>
+										<p> She has secured 6<sup>th</sup> position with 95% </p>
 
 									</div>
 								</div>
@@ -832,7 +858,7 @@
 							<div class="tab-pane fade" id="v-pills-11" role="tabpanel"
 								aria-labelledby="v-pills-day-11-tab">
 								<div class="coach-wrap ftco-animate d-sm-flex">
-									<div class="img coach-img" style="background-image: url(images/pic3.jpg);">
+									<div class="img coach-img" style="background-image: url(images/bhange.jpg);">
 									</div>
 									<div class="text pl-md-5">
 										<!-- <span class="time">08:00AM - 10:00AM</span> -->
@@ -842,7 +868,7 @@
 									</div>
 								</div>
 								<div class="coach-wrap ftco-animate d-sm-flex">
-									<div class="img coach-img" style="background-image: url(images/pic2.jpg);">
+									<div class="img coach-img" style="background-image: url(images/wagh.jpg);">
 									</div>
 									<div class="text pl-md-5">
 										<!-- <span class="time">08:00AM - 10:00AM</span> -->
@@ -901,12 +927,22 @@
 									</div>
 								</div>
 								<div class="coach-wrap ftco-animate d-sm-flex">
-									<div class="img coach-img" style="background-image: url(images/pic4.jpg);">
+									<div class="img coach-img" style="background-image: url(images/sam.jpg);">
 									</div>
 									<div class="text pl-md-5">
 										<!-- <span class="time">08:00AM - 10:00AM</span> -->
 										<h2><a href="#">Samruddhi Jagtap</a></h2>
 										<p>Guitar</p>
+
+									</div>
+								</div>
+								<div class="coach-wrap ftco-animate d-sm-flex">
+									<div class="img coach-img" style="background-image: url(images/srushti.jpg);">
+									</div>
+									<div class="text pl-md-5">
+										<!-- <span class="time">08:00AM - 10:00AM</span> -->
+										<h2><a href="#">Srushti Dhavale</a></h2>
+										<p>Dance ( especially on <b>Kamriya</b> song)</p>
 
 									</div>
 								</div>
@@ -1005,7 +1041,7 @@
 									</div>
 								</div>
 								<div class="coach-wrap ftco-animate d-sm-flex">
-									<div class="img coach-img" style="background-image: url(images/pic4.jpg);">
+									<div class="img coach-img" style="background-image: url(images/sam.jpg);">
 									</div>
 									<div class="text pl-md-5">
 										<!-- <span class="time">08:00AM - 10:00AM</span> -->
@@ -1183,7 +1219,7 @@
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/pic4.jpg);">
+							<div class="img align-self-stretch" style="background-image: url(images/sam.jpg);">
 							</div>
 						</div>
 						<div class="text d-flex align-items-center pt-3 text-center">
@@ -1206,7 +1242,7 @@
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/pic2.jpg);">
+							<div class="img align-self-stretch" style="background-image: url(images/wagh.jpg);">
 							</div>
 						</div>
 						<div class="text d-flex align-items-center pt-3 text-center">
@@ -1233,7 +1269,7 @@
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/pic3.jpg);">
+							<div class="img align-self-stretch" style="background-image: url(images/bhange.jpg);">
 							</div>
 						</div>
 						<div class="text d-flex align-items-center pt-3 text-center">
@@ -1300,9 +1336,39 @@
 					</div>
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="last-day.html" class="block-20" style="background-image: url('images/last-day.png');">
+						</a>
+						<div class="text float-right d-block">
+							<div class="d-flex align-items-center pt-2 mb-4 topp">
+								<div class="one mr-2">
+									<span class="day">19</span>
+								</div>
+								<div class="two">
+									<span class="yr">2021</span>
+									<span class="mos">april</span>
+								</div>
+							</div>
+							<h3 class="heading"><a href="last-day.html">The
+									Last<br> <b>Day</b></a>
+							</h3>
+							<p>Our 10<sup>th</sup> class academic year was about to finish but suddenly we got informed
+								that school will be reopen for class...</p>
+							<div class="d-flex align-items-center mt-4 meta">
+								<p class="mb-0"><a href="last-day.html" class="btn btn-primary">Read
+										More <span class="ion-ios-arrow-round-forward"></span></a></p>
+								<p class="ml-auto mb-0">
+									<a href="#" class="mr-2">Admin</a>
+									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<a href="#blog-section" class="block-20" style="background-image: url('images/silver.jpg');"
-							onclick="alert('This blog is not completed yet. Will you wants to complete it? If yes, then message Batch23.official on Instagram.')">
+							onclick="alert('This blog is not completed yet. Will you wants to complete it? If yes, then contact any of the co-founder.')">
 						</a>
 						<div class="text float-right d-block">
 							<div class="d-flex align-items-center pt-2 mb-4 topp">
@@ -1315,14 +1381,14 @@
 								</div>
 							</div>
 							<h3 class="heading"><a href="#blog-section"
-									onclick="alert('This blog is not completed yet. Will you wants to complete it? If yes, then message Batch23.official on Instagram.')">Silver
+									onclick="alert('This blog is not completed yet. Will you wants to complete it? If yes, then contact any of the co-founder.')">Silver
 									Jubilee <br><b>Celebration</b></a>
 							</h3>
 							<p> I think we are the luckiest one to have celebrate silver jubilee of our school. That day
 								was awesome ever. Me and my friends...</p>
 							<div class="d-flex align-items-center mt-4 meta">
 								<p class="mb-0"><a href="#blog-section" class="btn btn-primary"
-										onclick="alert('This blog is not completed yet. Will you wants to complete it? If yes, then message Batch23.official on Instagram.')">Read
+										onclick="alert('This blog is not completed yet. Will you wants to complete it? If yes, then contact any of the co-founder.')">Read
 										More <span class="ion-ios-arrow-round-forward"></span></a></p>
 								<p class="ml-auto mb-0">
 									<a href="#" class="mr-2">Admin</a>
@@ -1332,39 +1398,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex ftco-animate">
-					<div class="blog-entry">
-						<a href="#blog-section" class="block-20" style="background-image: url('images/last-day.jpg');"
-							onclick="alert('This blog is not completed yet. Will you wants to complete it? If yes, then message Batch23.official on Instagram.')">
-						</a>
-						<div class="text float-right d-block">
-							<div class="d-flex align-items-center pt-2 mb-4 topp">
-								<div class="one mr-2">
-									<span class="day">19</span>
-								</div>
-								<div class="two">
-									<span class="yr">2021</span>
-									<span class="mos">april</span>
-								</div>
-							</div>
-							<h3 class="heading"><a href="#blog-section"
-									onclick="alert('This blog is not completed yet. Will you wants to complete it? If yes, then message Batch23.official on Instagram.')">The
-									Last<br> <b>Day</b></a>
-							</h3>
-							<p>Our 10<sup>th</sup> class academic year was about to finish but suddenly we got informed
-								that school will be reopen for class...</p>
-							<div class="d-flex align-items-center mt-4 meta">
-								<p class="mb-0"><a href="#blog-section" class="btn btn-primary"
-										onclick="alert('This blog is not completed yet. Will you wants to complete it? If yes, then message Batch23.official on Instagram.')">Read
-										More <span class="ion-ios-arrow-round-forward"></span></a></p>
-								<p class="ml-auto mb-0">
-									<a href="#" class="mr-2">Admin</a>
-									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
+
 			</div>
 		</div>
 	</section>
@@ -1445,7 +1479,7 @@
 								</div>
 								<div>
 									<h3 class="mb-3">Website</h3>
-									<p><a href="#">bit.ly/batch23official</a></p>
+									<p><a href="#">bit.ly/Batch23Official</a></p>
 								</div>
 							</div>
 						</div>
@@ -1461,7 +1495,7 @@
 			width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	</section>
 
-	<section class="ftco-gallery ftco-section">
+	<section class="ftco-gallery ftco-section" id="ftco-section">
 		<div class="container-fluid px-4">
 			<div class="row justify-content-center mb-5 pb-3">
 				<div class="col-md-7 heading-section ftco-animate text-center">
@@ -1535,6 +1569,8 @@
 					</a>
 				</div>
 			</div>
+			<div class="row d-flex justify-content-center align-items-center mt-3"><a href="gallery.html"
+					class="btn btn-primary px-4 py-3">See More</a></div>
 		</div>
 	</section>
 	<footer class="ftco-footer ftco-section">
